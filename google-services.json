@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077151816538",
+    "project_id": "jec-company-b55f2",
+    "storage_bucket": "jec-company-b55f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077151816538:android:d8425629667a23235cb163",
+        "android_client_info": {
+          "package_name": "in.jec.jagenelectriciancompany"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ8_vr2VxJ6TE1F-9QCprmqutdj--BxU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

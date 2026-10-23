@@ -1,0 +1,15 @@
+plugins { id 'com.android.application'; id 'com.google.gms.google-services' }
+
+android { namespace 'in.jec.jagenelectriciancompany'; compileSdk 35
+    defaultConfig { applicationId 'in.jec.jagenelectriciancompany'; minSdk 24; targetSdk 35; versionCode 7; versionName '7.0-native' }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.7.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+}
